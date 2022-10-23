@@ -13,6 +13,8 @@ The following [styles](https://github.com/andrerpena/react-mde#styling) from Rea
 import 'react-mde/lib/styles/css/react-mde-all.css';
 ```
 
+To resolve the [Build fails on peer dependency](https://docs.netlify.com/configure-builds/troubleshooting-tips/#build-fails-on-peer-dependency-conflict) conflict when deploying with Netlify, the NPM_FLAGS environment variable was set to pass `--force` to the npm install command.
+
 Live Site: Live Site: https://notes-app-by-alphfonti.netlify.app/
 
 ## Built with
